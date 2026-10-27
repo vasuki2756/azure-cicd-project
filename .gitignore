@@ -1,0 +1,26 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+!terraform.tfvars.example
+
+# Secrets / keys - never commit these
+*.pem
+*.key
+azure_vm_key
+azure_vm_key.pub
+id_rsa*
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Build output
+app.tar.gz
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/

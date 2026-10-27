@@ -1,0 +1,3 @@
+# Copy this file to terraform.tfvars to override defaults (terraform.tfvars is git-ignored).
+# location = "southindia"
+# vm_size  = "Standard_B2s"

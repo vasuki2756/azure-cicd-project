@@ -1,0 +1,13 @@
+{
+  "name": "azure-cicd-webapp",
+  "version": "1.0.0",
+  "description": "Simple Node.js web app deployed to an Azure VM via Terraform and Jenkins",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
