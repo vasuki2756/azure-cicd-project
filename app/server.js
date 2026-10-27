@@ -5,7 +5,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Change this value (v1 -> v2) and push to GitHub to demonstrate continuous deployment.
-const APP_VERSION = 'v1';
+const APP_VERSION = 'v2';
 
 app.get('/health', (req, res) => res.json({ status: 'ok', version: APP_VERSION }));
 
