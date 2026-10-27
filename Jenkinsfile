@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // TODO: replace with the public IP printed by `terraform apply`
-        VM_HOST = 'REPLACE_WITH_VM_PUBLIC_IP'
+        VM_HOST = '52.141.2.113'
         VM_USER = 'azureuser'
     }
 

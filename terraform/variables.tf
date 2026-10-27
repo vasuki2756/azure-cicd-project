@@ -5,13 +5,13 @@ variable "prefix" {
 }
 
 variable "location" {
-  description = "Azure region. Azure for Students only allows some regions; try centralindia, southindia or eastasia if one fails."
+  description = "Azure region for deployment"
   type        = string
-  default     = "centralindia"
+  default     = "koreacentral"
 }
 
 variable "vm_size" {
-  description = "VM size. If Standard_B1s is unavailable, try Standard_B2s or Standard_B2ats_v2."
+  description = "Size of the Virtual Machine"
   type        = string
   default     = "Standard_B1s"
 }
