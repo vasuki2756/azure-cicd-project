@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
            display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0; }
     .card { background: #1e293b; padding: 2.5rem 3rem; border-radius: 16px; text-align: center;
             box-shadow: 0 10px 30px rgba(0,0,0,.4); }
-    h1 { margin: 0 0 .5rem; color: #55f838; }
+    h1 { margin: 0 0 .5rem; color: #3d1127; }
     .ver { font-size: 2.5rem; font-weight: 700; color: #4ade80; }
     p { color: #94a3b8; margin: .25rem 0; }
   </style>
