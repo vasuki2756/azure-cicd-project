@@ -28,7 +28,7 @@ app.get('/', (req, res) => {
 </head>
 <body>
   <div class="card">
-    <h1>Vasuki The GMS Owner</h1>
+    <h1>Hello Rahul Sir</h1>
     <div class="ver">${APP_VERSION}</div>
     <p>Deployed automatically with Terraform + Jenkins</p>
     <p>Host: ${os.hostname()}</p>
